@@ -31,7 +31,7 @@ $access_token_url = 'https://sandbox.safaricom.co.ke/oauth/v1/generate?grant_typ
 $initiate_url = 'https://sandbox.safaricom.co.ke/mpesa/stkpush/v1/processrequest';
 
 //callback url
-$CallBackUrl = "";
+$CallBackUrl = "https://claude555.github.io/Mpesa-stk-push/index.php";
 
 $curl = curl_init($access_token_url);
 curl_setopt($curl, CURLOPT_HTTPHEADER, $headers);
